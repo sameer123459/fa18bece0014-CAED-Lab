@@ -1,0 +1,91 @@
+%exercise 5.3 (a)
+x = 10
+y = 2
+z = 6
+
+%Q1)part (A)
+w = x + y + z
+%Q2)part (B)
+w = x * y * z
+%Q3)part (C)
+w = x / y
+%Q4)part (D)
+w = x ^ y
+%Q5)part (E)
+w = x ^ z
+
+
+%exercise 5.3 (B)
+Write a program to convert temperature given in degrees Centigrade,
+say 35.4 C, to degrees Fahrenheit.
+x = 35.4;
+w = (x * (9/5))+ 32
+disp(w)
+
+ 
+%EXERCISE 5.4
+i = 2
+j = 4
+k = 6
+l = 8
+%exercise 5.4.1 (A)
+w = i*j + k*l
+%exercise 5.4.1 (B)
+w = i+(j+k)*l
+%exercise 5.4.1 (C)
+w = (i*j)+(k/l)
+%exercise 5.4.1 (D)
+w = (i+j)*i^j
+
+
+
+%exercise 5.4.2
+x = 3-4i
+y = 1+2i
+
+%exercise 5.4.2 (A)
+w = x+y
+%exercise 5.4.2 (B)
+w = x-y
+%exercise 5.4.2 (C)
+w = x*y
+%exercise 5.4.2 (D)
+w = x/y
+%exercise 5.4.2 (E)
+w = x^y
+
+%exercise 5.4.3
+a = 30.0;
+b = -20.0;
+c = 10.0;
+
+q =  b - (sqrt((b^2) - (4*a*c)));
+r =  b + (sqrt((b^2) - (4*a*c)));
+w = q/2*a;
+f = r/2*a;
+disp(w)
+disp(f)
+
+
+
+%exercise 5.4.4
+x1 = 2
+x2 = 4
+y1 = 6
+y2 = 8
+
+q = ((x2-x1)^2)+((y2-y1)^2);
+w = sqrt(q);
+disp(w)
+
+
+
+%exercise 5.4.5
+x1 = 2
+x2 = 4
+y1 = 6
+y2 = 8
+
+q = (y2-y1)/(x2-x1);
+disp(q)
+
